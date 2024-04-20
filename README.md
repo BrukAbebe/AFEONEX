@@ -1,5 +1,5 @@
-
 #Weather Web App
+
 This is a simple weather web application built using React and Vite. It allows users to check the current weather and forecast for different locations.
 
 #Features
