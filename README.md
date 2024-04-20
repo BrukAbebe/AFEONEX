@@ -32,7 +32,7 @@ npm run dev
 or
 yarn dev
 
-5.Open your browser and visit http://localhost:3000 to view the app.
+5.Open your browser .
 
 #Usage
 
