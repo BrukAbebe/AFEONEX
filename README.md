@@ -55,4 +55,5 @@ This project uses the OpenWeatherMap API to fetch weather data. You need to obta
 VITE_WEATHER_API_KEY=your_api_key_here
 
 #Acknowledgement:
-This project was completed during my internship at AFEONEX. I want to express my gratitude to the team at AF
+
+This project was completed during my internship at AFEONEX. I want to express my gratitude to the team at AFEONEX for their support, guidance, and providing me with this valuable learning opportunity.
