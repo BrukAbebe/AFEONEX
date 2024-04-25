@@ -8,31 +8,6 @@ Display current weather conditions for a selected location.
 Show a 5-day weather forecast.
 Switch between Celsius and Fahrenheit temperature units.
 
-#Installation
-
-To run this project locally, follow these steps:
-
-1.Clone the repository:
-
-git clone https://github.com/BrukAbebe/AFEONEX.git
-
-2.Navigate to the project directory:
-
-cd AFEONEX
-
-3.Install dependencies using npm or yarn:
-
-npm install
-or
-yarn install
-
-4.Start the development server:
-
-npm run dev
-or
-yarn dev
-
-5.Open your browser .
 
 #Usage
 
