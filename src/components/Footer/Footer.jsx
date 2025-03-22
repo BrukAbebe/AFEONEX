@@ -7,23 +7,18 @@ function Footer() {
       bg="#2c3e50"
       color="white"
       width="100%"
-      padding="0.5rem"
       borderTop="1px solid #fff"
-      position="relative"
-      bottom="0"
-      left="0"
+      py={4} // Add some padding for better spacing
     >
       <Text textAlign="center" fontSize="xs">
-        {" "}
         Designed by Biruk
       </Text>
       <Text textAlign="center" fontSize="xs">
-        {" "}
         <Link href="https://t.me/BrookinHim" isExternal>
           Telegram
         </Link>{" "}
         |{" "}
-        <Link href="https://www.linkedin.com/in/birukab" isExternal>
+        <Link href="https://www.linkedin.com/in/birukabebe" isExternal>
           LinkedIn
         </Link>
       </Text>
