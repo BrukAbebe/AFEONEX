@@ -25,7 +25,6 @@ const SearchBar = ({ onSelect }) => {
       }
     } catch (error) {
       setSuggestions([]);
-      console.error(error);
     }
   };
 

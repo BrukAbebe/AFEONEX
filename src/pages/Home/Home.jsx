@@ -10,17 +10,27 @@ import {
   CardHeader,
   CardBody,
   Stack,
+  useToast, // Add this import
 } from "@chakra-ui/react";
 import SearchBar from "../../components/SearchBar/SearchBar";
 
 function Home() {
   const navigate = useNavigate();
+  const toast = useToast(); // Initialize toast
 
   const handleLocationSelect = (selectedLocation) => {
     if (selectedLocation && Object.keys(selectedLocation).length !== 0) {
       navigate("/weather", { state: selectedLocation });
     } else {
-      console.log("Selected location is empty");
+      // Show error toast instead of console.log
+      toast({
+        title: "Error",
+        description: "Please select a valid location",
+        status: "error",
+        duration: 3000,
+        isClosable: true,
+        position: "top",
+      });
     }
   };
 
