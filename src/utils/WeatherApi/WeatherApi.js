@@ -24,7 +24,7 @@ const fetchForecastData = async (lat, lon) => {
 
 const fetchGeocodingData = async (location) => {
   try {
-    let apiUrl = `http://api.openweathermap.org/geo/1.0/direct?q=${location}&limit=5&appid=${apiKey}`;
+    let apiUrl = `https://api.openweathermap.org/geo/1.0/direct?q=${location}&limit=5&appid=${apiKey}`;
     const response = await axios.get(apiUrl);
     return response.data;
   } catch (error) {
@@ -33,7 +33,7 @@ const fetchGeocodingData = async (location) => {
 };
 const fetchZipData = async (zip) => {
   try {
-    let apiUrl = `http://api.openweathermap.org/geo/1.0/zip?zip=${zip}&appid=${apiKey}`;
+    let apiUrl = `https://api.openweathermap.org/geo/1.0/zip?zip=${zip}&appid=${apiKey}`;
     const response = await axios.get(apiUrl);
     return response.data;
   } catch (error) {
